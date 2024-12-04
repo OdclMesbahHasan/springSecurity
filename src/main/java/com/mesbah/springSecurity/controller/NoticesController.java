@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class NoticesController {
     @GetMapping("/notices")
     public String welcome() {
-        return "Welcome to Spring Security";
+        return "Welcome to Spring Security(Not Authenticated)";
     }
 
 }

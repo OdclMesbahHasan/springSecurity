@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ContactController {
     @GetMapping("/contact")
     public String welcome() {
-        return "Welcome to Spring Security";
+        return "Welcome to Spring Security(Not Authenticated)";
     }
 }
